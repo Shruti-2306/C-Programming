@@ -1,0 +1,21 @@
+//Write a code to display the string "Jay Ganesh" for 5 times
+
+#include<stdio.h>
+
+void Display()
+{
+int iCnt = 0;
+//    1       2       3
+for(iCnt =1; iCnt<=5; iCnt++)
+{
+    printf("Jay Ganesh...\n");   //4
+}
+}
+int main()         //Entry point function
+{
+
+
+  Display();
+ 
+     return 0;
+}
